@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML-CSS Lab 1</title>
     <link rel="stylesheet" href=style.css />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <!-- Main Header Text -->
-        <h4 class="top-name">chirpus inc.</h4>
+        <!-- Use H1-H6 for importance, not size -->
+        <h1><a href="#" class="top-name">chirpus inc.</a></h1>
 
         <!-- Main Navigation bar -->
         <nav class="top-nav">
@@ -21,8 +22,8 @@
             <li><a href="#">About Us</a></li>
             <!-- CONTACT -->
             <li><a href="#">Contact</a></li>
-            <!-- HIRE US -->
-            <button id="button-top" class="button-top">Hire Us</button>    
+            <!-- HIRE US (not a button just looks like one) -->
+            <li><a href="#" class="button-top">Hire Us</a></li>    
             </ul>
         </nav> <!-- End of .topnav -->
     </header>
@@ -37,21 +38,21 @@
             </p>
         </div> <!-- End of .lorem -->
 
-        <button id="button-top" class="button-top">Call To Action</a>
+        <a href="#" class="button-top">Call To Action</a>
     </div>
 
     <footer class="footer">
-
-        <h4 class="bottom-name">chirpus inc.</h4>
-
+        <!-- This needs to be just an anchor tag/text -->
+        <a href="#" class="bottom-name">chirpus inc.</a>
+        
         <nav class="bottom-nav">
             <ul class="footer-links">
                 <!-- LINK 1 -->
-                <li><a href="#">Link 1</a></li>
+                <li class="nav-item"><a href="#">Link 1</a></li>
                 <!-- LINK 2 -->
-                <li><a href="#">Link 2</a></li>
+                <li class="nav-item"><a href="#">Link 2</a></li>
                 <!-- LINK 3 -->
-                <li><a href="#">Link 3</a></li>
+                <li class="nav-item"><a href="#">Link 3</a></li>
             </ul>
         </nav> <!-- End of .bottom-nav -->
     </footer> <!-- End of footer -->
